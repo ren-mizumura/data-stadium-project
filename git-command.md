@@ -9,7 +9,7 @@ git checkout main
 git pull origin main
 
 ### 新しいブランチを作成して移動（自分の作業するブランチ）
-git checkout -b feature/機能名
+git checkout -b feature/機能名  
 git checkout -b fix/修正内容
 
 
@@ -38,12 +38,12 @@ git push -u origin ブランチ名
 
 
 ## プルリクエストの作成手順
-1, GitHubのリポジトリページにアクセス
-2, 「Pull requests」タブをクリック
-3, 「New pull request」ボタンをクリック
-4, ベースブランチ（通常はmain）と、作成したブランチを選択
-5, 「Create pull request」をクリック
-6, タイトルと説明を入力して「Create pull request」をクリック
+1, GitHubのリポジトリページにアクセス  
+2, 「Pull requests」タブをクリック  
+3, 「New pull request」ボタンをクリック  
+4, ベースブランチ（通常はmain）と、作成したブランチを選択  
+5, 「Create pull request」をクリック  
+6, タイトルと説明を入力して「Create pull request」をクリック  
 <!-- プルリクエストの書き方 -->
 <!-- 
 どんな変更をしたのか
