@@ -3,7 +3,8 @@
 ## 作業の流れ
 1. プロジェクトのソースコードをクローンする  
 ```bash
-git clone
+git clone <リポジトリのURL>
+git remote add origin <リポジトリのURL>   リモートリポジトリの登録(cloneしないとき)
 ```
 
 2. ブランチを分ける  
